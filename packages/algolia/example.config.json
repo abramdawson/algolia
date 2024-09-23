@@ -6,6 +6,10 @@
   "ignore_slugs": [
     "the-slug-of-a-post-with-a-huge-amount-of-content-that-will-cause-errors"
   ],
+  "ignore_tags": [
+    "changelog",
+    "stories"
+  ],
   "algolia": {
     "index": "",
     "apiKey": "",
@@ -23,9 +27,7 @@
         "html",
         "url",
         "tags.name",
-        "tags",
-        "authors.name",
-        "authors"
+        "tags"
       ],
       "attributesForFaceting": [
         "filterOnly(slug)"
